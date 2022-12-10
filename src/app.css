@@ -1,0 +1,387 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #fd0000;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ffffff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #FFFDFA;
+  }
+  a:hover {
+    color: #2a2a2a;
+  }
+  button {
+    background-color: #3a3a3a;
+  }
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+.image-block::after, *::before {
+  box-sizing: inherit;
+}
+
+.image-block, .image-block:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+.image-block {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 40%;
+  height: 375px;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  box-shadow: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  background: url("https://www.autosprint.ch/wp-content/uploads/2021/04/Toyota-Wasserstoff_autosprint.ch_.jpg");
+  background-size: contain;
+}
+
+.image-block2 {
+  position: absolute;
+  display: flex;
+  left: 50%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+  width: 40%;
+  height: 375px;
+  border-radius: 10px;
+  box-shadow: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  background: url("https://mobile.ledesk.ma/wp-content/uploads/2022/01/Hydrogene-vert.jpg");
+  background-size: cover;
+}
+.image-block3 {
+  position: relative;
+  display: flex;
+  top: 70%;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 2em;
+  width: 40%;
+  height: 375px;
+  border-radius: 10px;
+  box-shadow: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  background: url("https://www.vaillant.ch/local-media/b2c/heizungsratgeber/moderne-technologien/wasserstoff-1876-x-1055-px-fr-blau-2097413-format-16-9@392@retina.jpg");
+  background-size: contain;
+}
+
+.image-block4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 2em;
+  top: 70%;
+  left: 50%;
+  width: 40%;
+  height: 375px;
+  border-radius: 10px;
+  box-shadow: white;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  overflow: hidden;
+  background: url("https://www.georges.ch/wp-content/uploads/2022/05/hydrogene.jpg");
+  background-size: contain;
+}
+
+
+
+
+
+
+@media(max-width: 728px) {
+  .image-block {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 80%;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    background: url("https://www.autosprint.ch/wp-content/uploads/2021/04/Toyota-Wasserstoff_autosprint.ch_.jpg");
+    background-size: contain;
+  }
+
+  .image-block2 {
+    position: absolute;
+    display: flex;
+    top: 60%;
+   left: 5%;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 80%;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    background: url("https://mobile.ledesk.ma/wp-content/uploads/2022/01/Hydrogene-vert.jpg");
+    background-size: cover;
+  }
+  .image-block3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    top: 104%;
+    width: 80%;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    background: url("https://www.vaillant.ch/local-media/b2c/heizungsratgeber/moderne-technologien/wasserstoff-1876-x-1055-px-fr-blau-2097413-format-16-9@392@retina.jpg");
+    background-size: contain;
+  }
+
+  .image-block4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    left: 5%;
+    top: 160%;
+    width: 80%;
+    height: 375px;
+    border-radius: 10px;
+    box-shadow: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    overflow: hidden;
+    background: url("https://www.georges.ch/wp-content/uploads/2022/05/hydrogene.jpg");
+    background-size: contain;
+  }
+}
+
+
+body {
+  background: #f2f2f2;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+  white;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg")
+  white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container:hover .flap::after {
+  transform: translatex(300px);
+}
+
+.container:hover .flap::before {
+  transform: translatex(-300px);
+}
+figure:hover {
+  box-shadow: 0 1px 3px rgba(0, 140, 255, 0.91), 0 1px 2px rgb(36, 227, 170);
+}
+figure:hover img {
+  transform: scale(2);
+}
+figure:hover figcaption {
+  bottom: 0;
+}
+figure h1 {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+figure figcaption {
+  position: absolute;
+  bottom: -33%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 30px;
+  background-color: rgba(35, 35, 35, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 12, 255, 0.91), 0 1px 2px rgb(227, 36, 36);
+  color: white;
+  line-height: 1;
+  transition: 0.25s;
+  text-align: center;
+  box-sizing: border-box;
+}
+figure figcaption h3 {
+  margin: 0 0 20px;
+  padding: 0;
+  text-align: center;
+}
+figure figcaption p {
+  font-size: 14px;
+  line-height: 1.75;
+  text-align: center;
+}
+figure figcaption button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 0;
+  padding: 10px 30px;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
