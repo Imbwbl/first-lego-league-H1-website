@@ -12,6 +12,15 @@
       <h1 class="title">Hydrogène</h1>
     </a>
   </div>
+  <div>
+    <h2 class="subtitle">
+      Keske l’hydrogene
+      L’hydrogéné est la plus petite molecule qui existe dans la nature. Elle se compose de deux atomes identiques combinant simplement un proton et un electron. L’atome d’hydrogène est si petit qu’il se faufile partout. La combustion d’hydrogène produit 3 fois plus d’énergie que l’essence. Il est present dans l’eau et dans beaucoup de gaz.
+
+      Comment prouder de l’hydrogène.
+      Pour produire de l’hydrogène, on utilise principalement le gaz naturel CH4. A l’issue de ce procédé, on obtient du CO2 qui contribue a l’effet de serre. Une autre solution est d’utiliser une électrolyse de l’eau. Le principe est que à l’aide de 2 electrodes, l’anode et la cathode, il fait passer du courant électrique dans l’eau et donc ca sépare l’hydrogène de l’Oxygène.
+    </h2>
+  </div>
 
   <figure class="image-block">
     <figcaption>
@@ -55,6 +64,9 @@
 </main>
 
 <style>
+  .subtitle {
+    color: #1a1a1a;
+  }
   .logo {
     height: 5em;
     padding: 1.5em;

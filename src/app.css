@@ -6,7 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -99,7 +99,7 @@ html {
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  width: 40%;
+  width: 600px;
   height: 375px;
   border-radius: 10px;
   margin-bottom: 2em;
@@ -118,7 +118,7 @@ html {
   justify-content: center;
   box-sizing: border-box;
   margin-bottom: 2em;
-  width: 40%;
+  width: 600px;
   height: 375px;
   border-radius: 10px;
   box-shadow: white;
@@ -128,14 +128,14 @@ html {
   background-size: cover;
 }
 .image-block3 {
-  position: relative;
+  position: absolute;
   display: flex;
-  top: 70%;
+  top: 60%;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   margin-top: 2em;
-  width: 40%;
+  width: 600px;
   height: 375px;
   border-radius: 10px;
   box-shadow: white;
@@ -146,15 +146,15 @@ html {
 }
 
 .image-block4 {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
   margin-top: 2em;
-  top: 70%;
+  top: 60%;
   left: 50%;
-  width: 40%;
+  width: 600px;
   height: 375px;
   border-radius: 10px;
   box-shadow: white;
@@ -251,7 +251,7 @@ body {
   transform: translate(-50%, -50%);
   height: 400px;
   width: 600px;
-  background: #f2f2f2;
+  background: #ffffff;
   overflow: hidden;
   border-radius: 20px;
   cursor: pointer;
