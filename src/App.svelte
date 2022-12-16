@@ -57,7 +57,7 @@
       <img src="./hydrogene.jpg" alt="Image 4">
       <div class="card-overlay">
         <h3>En resumé</h3>
-        <p>les moteurs à hydrogène sont une solution intéressante car
+        <p>Les moteurs à hydrogène sont une solution intéressante car
           ils peuvent contribuer à la protection de l'environnement, être
           alimentés par des sources d'énergie renouvelables et offrir des
           performances supérieures à celles des moteurs à essence ou diesel.</p>
