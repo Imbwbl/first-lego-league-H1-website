@@ -1,17 +1,7 @@
-<script>
-  import svelteLogo from "/logo.png";
-  import toyota from "/Toyota.jpg";
-  import wasserstoff from "/wasserstoff.jpg"
-  import hydrogene from "/hydrogene.jpg"
-  import hydroVert from "/Hydrogene-vert.jpg"
-    import Counter from "./lib/Header.svelte";
-  import LocomotiveScroll from "locomotive-scroll";
-</script>
-
 <main>
   <div class="headerTitle">
     <a href="#" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
+      <img src="./logo.png" class="logo svelte" alt="Svelte Logo" />
       <h1 class="title">Hydrogène</h1>
     </a>
   </div>
@@ -28,7 +18,7 @@
 
   <div class="grid">
     <div class="card">
-      <img src="{toyota}" alt="Image 1">
+      <img src="./Toyota.jpg" alt="Image 1">
       <div class="card-overlay">
         <h3>Premièrement</h3>
         <p>Les moteurs à hydrogène peuvent être une solution intéressante pour de
@@ -40,7 +30,7 @@
       </div>
     </div>
     <div class="card">
-      <img src="{hydroVert}" alt="Image 2">
+      <img src="./Hydrogene-vert.jpg" alt="Image 2">
       <div class="card-overlay">
         <h3>Deuxièmement</h3>
         <p>l'hydrogène peut être produit à partir de différentes
@@ -51,7 +41,7 @@
       </div>
     </div>
     <div class="card">
-      <img src="{wasserstoff}" alt="Image 3">
+      <img src="./wasserstoff.jpg" alt="Image 3">
       <div class="card-overlay">
         <h3>Troisièmement</h3>
         <p>Les moteurs à hydrogène peuvent être plus efficaces et plus
@@ -61,7 +51,7 @@
       </div>
     </div>
     <div class="card">
-    <img src="{hydrogene}" alt="Image 4">
+    <img src="./hydrogene.jpg" alt="Image 4">
     <div class="card-overlay">
       <h3>En resumé</h3>
       <p>les moteurs à hydrogène sont une solution intéressante car
