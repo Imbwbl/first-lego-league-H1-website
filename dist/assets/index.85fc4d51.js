@@ -31,7 +31,7 @@
           d&#39;autonomie, ce qui peut \xEAtre attrayant pour les conducteurs.</p></div></div> 
     <div class="card"><img src="./hydrogene.jpg" alt="Image 4"/> 
       <div class="card-overlay"><h3>En resum\xE9</h3> 
-        <p>les moteurs \xE0 hydrog\xE8ne sont une solution int\xE9ressante car
+        <p>Les moteurs \xE0 hydrog\xE8ne sont une solution int\xE9ressante car
           ils peuvent contribuer \xE0 la protection de l&#39;environnement, \xEAtre
           aliment\xE9s par des sources d&#39;\xE9nergie renouvelables et offrir des
           performances sup\xE9rieures \xE0 celles des moteurs \xE0 essence ou diesel.</p></div></div></div>`},m(n,i){S(n,t,i)},p:a,i:a,o:a,d(n){n&&I(t)}}}class R extends G{constructor(t){super(),U(this,t,null,J,N,{})}}new R({target:document.getElementById("app")});
