@@ -1,9 +1,9 @@
 <script>
-  import svelteLogo from "../public/logo.png";
-  import toyota from "../public/Toyota.jpg";
-  import wasserstoff from "../public/wasserstoff.jpg"
-  import hydrogene from "../public/hydrogene.jpg"
-  import hydroVert from "../public/Hydrogene-vert.jpg"
+  import svelteLogo from "/logo.png";
+  import toyota from "/Toyota.jpg";
+  import wasserstoff from "/wasserstoff.jpg"
+  import hydrogene from "/hydrogene.jpg"
+  import hydroVert from "/Hydrogene-vert.jpg"
     import Counter from "./lib/Header.svelte";
   import LocomotiveScroll from "locomotive-scroll";
 </script>
