@@ -31,6 +31,7 @@
           à lutter contre le changement climatique.</p>
       </div>
     </div>
+    <hr class="separationhr">
     <div class="card">
       <img src="./Hydrogene-vert.jpg" alt="Image 2">
       <div class="card-overlay">
@@ -42,6 +43,7 @@
           et non durables.</p>
       </div>
     </div>
+    <hr class="separationhr">
     <div class="card">
       <img src="./wasserstoff.jpg" alt="Image 3">
       <div class="card-overlay">
@@ -52,6 +54,7 @@
           d'autonomie, ce qui peut être attrayant pour les conducteurs.</p>
       </div>
     </div>
+    <hr class="separationhr">
     <div class="card">
       <img src="./hydrogene.jpg" alt="Image 4">
       <div class="card-overlay">
