@@ -1,9 +1,8 @@
 <main>
   <div class="headerTitle">
-    <a href="#" target="_blank" rel="noreferrer">
-      <img src="./logo.png" class="logo svelte" alt="Svelte Logo" />
-      <h1 class="title">Hydrogène</h1>
-    </a>
+    <span>
+      <h1 class="title"><img src="./logo.png" class="topLogo" alt="FLL Hydrogène" />Hydrogène</h1>
+    </span>
   </div>
   <hr class="hr1">
   <div>
@@ -67,18 +66,7 @@
 </main>
 
 <style>
-  .subtitle {
-    color: #1a1a1a;
-  }
-  .logo {
-    height: 6em;
-    padding: 1.5em;
 
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
   @keyframes scale {
     from {
       transform: scale(0) rotate(180deg);
@@ -94,10 +82,6 @@
     transition: all 500ms;
   }
 
-  .title {
-    float: right;
-    color: #2a2a2a;
-  }
   .headerTitle:hover{
     transition: all 500ms;
     filter: drop-shadow(0 0 2em #646cffaa);

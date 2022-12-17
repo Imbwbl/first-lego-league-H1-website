@@ -7,13 +7,18 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
+.topLogo {
+  width: 15%;
+  height: auto;
+  padding-right: 5px;
+}
 .hr2 {
   margin: 16px 0;
   border: 0;
   text-align: center;
 }
 .hr2:before {
-  content: "••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••  ";
+  content: "~ ~ ~";
   font-size: 50px;
   color: #6e6e6e;
 }
@@ -25,7 +30,7 @@
 }
 
 .hr1:before {
-  content: "•••••••";
+  content: "• • •";
   font-size: 50px;
   color: #6e6e6e;
 }
@@ -33,30 +38,35 @@ h1 {
   padding: 3px;
   font-weight: 900;
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
+}
+.title {
+  color: #2a2a2a;
 }
 h2{
-  font-size: 30px;
+  font-size: 1.8em;
   transition: all 500ms;
 }
 
-h2:hover{
+/* h2:hover{
   font-size: 35px;
   transition: all 500ms;
   text-shadow: 4px 4px #558ABB;
 
-}
+} */
 p.subtitle{
-  padding-left: 10em;
-  padding-right: 10em;
-  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.2em;
+  color: #1a1a1a;
   transition: all 1000ms;
 }
 
+/*
 p.subtitle:hover{
   transition: all 500ms;
   text-shadow: 1px 1px #000000;
-}
+}*/
 
 .grid {
   display: flex;
@@ -67,11 +77,11 @@ p.subtitle:hover{
 .card {
   border-radius: 10px;
   position: relative;
-  width: 45%;
+  width: 600px;
   box-sizing: border-box;
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  margin: 0 30px 30px 0;
+  margin: 30px;
 }
 .card:hover {
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
@@ -82,8 +92,9 @@ p.subtitle:hover{
   margin-right: 0;
 }
 
-.card img {
+.card > img {
   width: 100%;
+  max-width: 600px;
   height: 100%;
   object-fit: cover;
 }
@@ -110,59 +121,52 @@ p.subtitle:hover{
 
 .card-overlay h3 {
   color: white;
-  font-size: 2.8em;
+  font-size: 1.4em;
   margin: 10px;
 }
 
 .card-overlay p {
   color: white;
-  font-size: 2.5vh;
+  font-size: 1.1em;
   margin: 0 80px;
 }
 
-/*
-.figuresContainer{
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-
+@media screen and (max-width : 980px) {
+  p.subtitle{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+  }
+  .card {
+    margin: 1px;
+  }
+  .card-overlay p {
+    margin: 0 10px;
+  }
 }
-#block_1 {
-  background-size: 10% 10%;
-  background: url("/Toyota.jpg") no-repeat center;
+@media screen and (max-width : 500px) {
+  p.subtitle{
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.5em;
+  }
+  .card {
+    margin: 1px;
+    overflow: visible;
+    /* height: 600px; */
+  }
+  .card-overlay {
+    opacity: 100%;
+    margin-top: 300px;
+    /* margin-top: 300px; */
+  }
+  .card > img {
+    width: 100%;
+    max-width: 600px;
+    max-height: 300px;
+    height: 300px;
+    display: block;
+    padding-bottom: 300px;
+    /* object-fit: cover; */
+  }
 }
-
-#block_2 {
-  background-size: cover;
-  background: url("https://mobile.ledesk.ma/wp-content/uploads/2022/01/Hydrogene-vert.jpg") no-repeat center;
-}
-
-#block_3 {
-  background-size: cover;
-  background: url("https://www.vaillant.ch/local-media/b2c/heizungsratgeber/moderne-technologien/wasserstoff-1876-x-1055-px-fr-blau-2097413-format-16-9@392@retina.jpg") no-repeat center;
-}
-
-#block_4 {
-  background-size: cover;
-  background: url("https://www.georges.ch/wp-content/uploads/2022/05/hydrogene.jpg") no-repeat center;
-}
-.image-block>div{
-  transition: all 300ms;
-  position: absolute;
-  bottom: -30%;
-  background-color: rgba(0,0,0,0.05);
-
-}
-.image-block>div:hover{
-  bottom: 20px;
-}
-.image-block{
-  position: relative;
-  height: 200px;
-  width: 80vh;
-  box-sizing: border-box;
-  overflow: hidden;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-*/
