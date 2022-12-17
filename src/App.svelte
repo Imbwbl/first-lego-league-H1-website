@@ -1,6 +1,24 @@
 
 
 <main>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <a href="//github.io/jo_geek" target="_blank">Home</a>
+      <a href="http://stackoverflow.com/users/4084003/" target="_blank">Team</a>
+      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Contact</a>
+    </div>
+  </div>
   <div class="headerTitle">
     <span>
       <h1 class="title"><img src="./logo.png" class="topLogo" alt="FLL Hydrogène" />Hydrogène</h1>
@@ -70,10 +88,10 @@
   </div>
   <footer>
     <p>© Copyright 2022 - JetWig & imbwbl</p>
-    <i class="fa-brands fa-github"><a href=https://github.com/Imbwbl>&nbsp -- @JetWig</a></i>
+    <i class="fa-brands fa-github"><a href=https://github.com/JetWig>&nbsp -- @JetWig</a></i>
     <br>
     <br>
-    <i class="fa-brands fa-github"><a href="https://github.com/JetWig">&nbsp -- @imbwbl  </a></i>
+    <i class="fa-brands fa-github"><a href="https://github.com/Imbwbl">&nbsp -- @imbwbl  </a></i>
   </footer>
 
 </main>
