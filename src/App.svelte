@@ -1,3 +1,5 @@
+
+
 <main>
   <div class="headerTitle">
     <span>
@@ -66,6 +68,14 @@
       </div>
     </div>
   </div>
+  <footer>
+    <p>© Copyright 2022 - JetWig & imbwbl</p>
+    <i class="fa-brands fa-github"><a href=https://github.com/Imbwbl>&nbsp -- @JetWig</a></i>
+    <br>
+    <br>
+    <i class="fa-brands fa-github"><a href="https://github.com/JetWig">&nbsp -- @imbwbl  </a></i>
+  </footer>
+
 </main>
 
 <style>

@@ -135,6 +135,29 @@ p.subtitle:hover{
   margin: 0 80px;
 }
 
+footer {
+  background-color: #c4c4c4;
+  color: #5d5d5d;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Center the text inside the footer */
+footer p {
+  text-align: center;
+}
+
+a{
+  font-size: 16px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: rgba(36, 97, 159, 0.91);
+}
+
+a:hover {
+  color: blue;
+}
+
 @media screen and (max-width : 980px) {
   p.subtitle{
     padding-left: 1em;
@@ -152,11 +175,16 @@ p.subtitle:hover{
     margin: 0 10px;
   }
 }
+
 @media screen and (max-width : 500px) {
   p.subtitle{
     padding-left: 1em;
     padding-right: 1em;
     font-size: 1.5em;
+  }
+
+  footer{
+    margin-top: 20px;
   }
   .card {
     margin: 1px;
@@ -222,4 +250,7 @@ p.subtitle:hover{
     /* object-fit: cover; */
   }
 }
+
+/* Add a black background color to the footer */
+
 
