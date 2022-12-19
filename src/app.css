@@ -88,6 +88,7 @@ p.subtitle:hover{
   width: 600px;
   box-sizing: border-box;
   overflow: hidden;
+  z-index: 1;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   margin: 30px;
 }
@@ -142,8 +143,10 @@ p.subtitle:hover{
 footer {
   background-color: #c4c4c4;
   color: #5d5d5d;
-  padding: 15px;
-  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120px;   /* Height of the footer */
 }
 
 /* Center the text inside the footer */
@@ -347,6 +350,14 @@ a:hover {
   }
 }
 
+
+
+.team {
+  position: absolute;
+  width: 5000px;
+  background: white;
+  visibility: hidden;
+}
 /* Add a black background color to the footer */
 
 

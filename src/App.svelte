@@ -1,5 +1,4 @@
 
-
 <main>
   <div class="nav">
     <input type="checkbox" id="nav-check">
@@ -14,11 +13,15 @@
     </div>
 
     <div class="nav-links">
-      <a href="//github.io/jo_geek" target="_blank">Home</a>
-      <a href="http://stackoverflow.com/users/4084003/" target="_blank">Team</a>
+      <button onclick="displayHome()">Home</button>
+      <button onclick="displayTeam()">Team</button>
       <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Contact</a>
     </div>
   </div>
+  <div class="team">
+    <h1>Hi</h1>
+  </div>
+
   <div class="headerTitle">
     <span>
       <h1 class="title"><img src="./logo.png" class="topLogo" alt="FLL Hydrogène" />Hydrogène</h1>
@@ -93,8 +96,23 @@
     <br>
     <i class="fa-brands fa-github"><a href="https://github.com/Imbwbl">&nbsp -- @imbwbl  </a></i>
   </footer>
+  <script>
+    function displayTeam() {
+      document.querySelector('.team').style.cssText = 'width: 600px; ' +
+              'position: fixed; ' +
+              'visibility: visible;' +
+              'height: 100%;' +
+              'width: 100%;' +
+              'z-index: 9999999;' ;
+    }
 
+    function displayHome(){
+      document.querySelector('.team').style.cssText = 'visibility: hidden;' +
+              'position: absolute;' ;
+    }
+  </script>
 </main>
+
 
 <style>
 
