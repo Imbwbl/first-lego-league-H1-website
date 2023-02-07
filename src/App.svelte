@@ -1,26 +1,9 @@
 
 <main>
-  <div class="nav">
-    <input type="checkbox" id="nav-check">
-    <div class="nav-header">
-    </div>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
 
-    <div class="nav-links">
-      <button onclick="displayHome()">Home</button>
-      <button onclick="displayTeam()">Team</button>
-      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Contact</a>
-    </div>
-  </div>
-  <div class="team">
-    <h1>Hi</h1>
-  </div>
+
+
+
 
   <div class="headerTitle">
     <span>
@@ -96,21 +79,8 @@
     <br>
     <i class="fa-brands fa-github"><a href="https://github.com/Imbwbl">&nbsp -- @imbwbl  </a></i>
   </footer>
-  <script>
-    function displayTeam() {
-      document.querySelector('.team').style.cssText = 'width: 600px; ' +
-              'position: fixed; ' +
-              'visibility: visible;' +
-              'height: 100%;' +
-              'width: 100%;' +
-              'z-index: 9999999;' ;
-    }
 
-    function displayHome(){
-      document.querySelector('.team').style.cssText = 'visibility: hidden;' +
-              'position: absolute;' ;
-    }
-  </script>
+
 </main>
 
 
