@@ -103,28 +103,28 @@
 
       <div class="">
         <h4>Questions:</h4>
-        <p>- Quelles études avez-vous faits, et faites actuellement? <button id="0" on:click={seconds}>00:00</button></p>
-        <p>- Quel a été votre parcours scolaire? <button id="15" on:click={seconds}>00:15</button></p>
-        <p>- Pourquoi avez-vous choisi le domaine de la chimie? <button id="33" on:click={seconds}>00:33</button></p>
-        <p>- Comment fonctionnent ces feuilles concrétement? <button id="60" on:click={seconds}>01:00</button></p>
-        <p>- Est-ce que vous pensez à l'industrialiser plus tard? <button id="105" on:click={seconds}>01:45</button></p>
-        <p>- Que pourrait être le coût? <button id="143" on:click={seconds}>02:23</button></p>
-        <p>- Quelles entreprises pourraient être visées? <button id="165" on:click={seconds}>02:45</button></p>
-        <p>- Avez-vous posé un brevet? <button id="213" on:click={seconds}>03:33</button></p>
-        <p>- Combien de molécules d'hydrogène sont produites par feuille? <button id="236" on:click={seconds}>03:56</button></p>
-        <p>- Comptez-vous à monter une start-up? <button id="256" on:click={seconds}>04:16</button></p>
-        <p>- Pourquoi utiliser l'hydrogène à la place d'autres énergies? <button id="267" on:click={seconds}>04:27</button></p>
-        <p>- Comment ces molécules se transforment-t-elles? <button id="314" on:click={seconds}>05:14</button></p>
-        <p>- Y-a-t-il des stations à hydrogène en Suisse? <button id="339" on:click={seconds}>05:39</button></p>
-        <p>- Y-a-t-il d'autres laboratoires sur le campus qui travaillent sur l'hydrogène? <button id="367" on:click={seconds}>06:07</button></p>
-        <p>- Comment récuperez-vous l'hydrogène de la feuille? <button id="415" on:click={seconds}>06:55</button></p>
-        <p>- Pourrait-on éviter de mélanger l'oxygène avec l'hydrogène? <button id="439" on:click={seconds}>07:19</button></p>
-        <p>- Quel est l'avenir de l'hydrogène? <button id="478" on:click={seconds}>07:58</button></p>
-        <p>- Comment pourrons nous diminuer le contact avec l'air pendant la transportation? <button id="552" on:click={seconds}>09:12</button></p>
-        <p>- Comment fonctionnerait le moteur à hydrogène? <button id="583" on:click={seconds}>09:43</button></p>
-        <p>- A quelle température l'hydrogène devient-t-il liquide? <button id="620" on:click={seconds}>10:20</button></p>
-        <p>- Quels sont les réserves d'hydrogène sur la planète? <button id="655" on:click={seconds}>10:55</button></p>
-        <p>- Que pensez-vous sur les voitures à hydrogène? <button id="710" on:click={seconds}>11:50</button></p>
+        <p>- Quelles études avez-vous faits, et faites actuellement? <a id="0" on:click={seconds}>00:00</a></p>
+        <p>- Quel a été votre parcours scolaire? <a id="15" on:click={seconds}>00:15</a></p>
+        <p>- Pourquoi avez-vous choisi le domaine de la chimie? <a id="33" on:click={seconds}>00:33</a></p>
+        <p>- Comment fonctionnent ces feuilles concrétement? <a id="60" on:click={seconds}>01:00</a></p>
+        <p>- Est-ce que vous pensez à l'industrialiser plus tard? <a id="105" on:click={seconds}>01:45</a></p>
+        <p>- Que pourrait être le coût? <a id="143" on:click={seconds}>02:23</a></p>
+        <p>- Quelles entreprises pourraient être visées? <a id="165" on:click={seconds}>02:45</a></p>
+        <p>- Avez-vous posé un brevet? <a id="213" on:click={seconds}>03:33</a></p>
+        <p>- Combien de molécules d'hydrogène sont produites par feuille? <a id="236" on:click={seconds}>03:56</a></p>
+        <p>- Comptez-vous à monter une start-up? <a id="256" on:click={seconds}>04:16</a></p>
+        <p>- Pourquoi utiliser l'hydrogène à la place d'autres énergies? <a id="267" on:click={seconds}>04:27</a></p>
+        <p>- Comment ces molécules se transforment-t-elles? <a id="314" on:click={seconds}>05:14</a></p>
+        <p>- Y-a-t-il des stations à hydrogène en Suisse? <a id="339" on:click={seconds}>05:39</a></p>
+        <p>- Y-a-t-il d'autres laboratoires sur le campus qui travaillent sur l'hydrogène? <a id="367" on:click={seconds}>06:07</a></p>
+        <p>- Comment récuperez-vous l'hydrogène de la feuille? <a id="415" on:click={seconds}>06:55</a></p>
+        <p>- Pourrait-on éviter de mélanger l'oxygène avec l'hydrogène? <a id="439" on:click={seconds}>07:19</a></p>
+        <p>- Quel est l'avenir de l'hydrogène? <a id="478" on:click={seconds}>07:58</a></p>
+        <p>- Comment pourrons nous diminuer le contact avec l'air pendant la transportation? <a id="552" on:click={seconds}>09:12</a></p>
+        <p>- Comment fonctionnerait le moteur à hydrogène? <a id="583" on:click={seconds}>09:43</a></p>
+        <p>- A quelle température l'hydrogène devient-t-il liquide? <a id="620" on:click={seconds}>10:20</a></p>
+        <p>- Quels sont les réserves d'hydrogène sur la planète? <a id="655" on:click={seconds}>10:55</a></p>
+        <p>- Que pensez-vous sur les voitures à hydrogène? <a id="710" on:click={seconds}>11:50</a></p>
 
       </div>
     </div>
@@ -144,9 +144,9 @@
 
       <div class="">
         <h4>Questions:</h4>
-        <p>- Comment fonctionne votre projet? <button id="1" on:click={seconds2}>00:00</button></p>
-        <p>- Que faites vous avec l'énergie produite? <button id="212" on:click={seconds2}>03:33</button></p>
-        <p>- Quelle est la quantité d'énergie produite et consommée?<button id="368" on:click={seconds2}>06:08</button></p>
+        <p>- Comment fonctionne votre projet? <a id="1" on:click={seconds2}>00:00</a></p>
+        <p>- Que faites vous avec l'énergie produite? <a id="212" on:click={seconds2}>03:33</a></p>
+        <p>- Quelle est la quantité d'énergie produite et consommée?<a id="368" on:click={seconds2}>06:08</a></p>
       </div>
     </div>
     <div class="card">
