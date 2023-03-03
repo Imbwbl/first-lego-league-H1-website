@@ -257,6 +257,12 @@ a:hover {
 }
 
 
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .team {
   position: absolute;
