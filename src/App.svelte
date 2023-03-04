@@ -138,7 +138,7 @@
   <p class="subtitle">
     Nous sommes également allé interviwer une compagnie s'appelant "SoHHytec" sur le campus de l'EPFL pour en savoir plus sur leur projet.
   </p>
-  <div class="videos grid ">
+  <div class="videos grid">
 
     <div class="card">
 
@@ -150,7 +150,7 @@
       </div>
     </div>
     <div class="card">
-      <iframe style="border-radius: 10px" width="600" height="315" src="https://www.youtube.com/embed/moTCngPsY8E?start={number2}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
+      <iframe style="border-radius: 10px;" width="600" height="315" src="https://www.youtube.com/embed/moTCngPsY8E?start={number2}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>    </div>
     <!-- <iframe style="border-radius: 20px" width="560" height="315" src="https://www.youtube.com/embed/mjVMFTAza3g?start={coucou}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
   </div>
 

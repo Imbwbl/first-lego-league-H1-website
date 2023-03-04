@@ -86,6 +86,10 @@ p.subtitle:hover{
   }
 }
 
+a {
+  cursor: pointer;
+}
+
 .card {
   border-radius: 10px;
   position: relative;
